@@ -9,7 +9,6 @@ My project folder is named `PERSONAL_WEBSITE` and includes the following structu
 ```
 PERSONAL_WEBSITE/
 ├── Screenshots/
-├── Service Acct Access Key/
 ├── terraform-with-gcp/
 │   └── infra/
 │       ├── main.tf
@@ -63,8 +62,7 @@ In GCP Console, I enabled the following APIs:
 
 ### Step 2: Set Up Service Account
 
-* Created a service account named `terraform-deployer` under IAM & Admin > Service Accounts.
-* Granted roles: `Editor`, `Storage Admin`, `DNS Administrator`, and `Compute Admin`.
+* Created a service account under IAM & Admin > Service Accounts.
 * Downloaded the JSON key and stored it securely in the `Service Acct Access Key` folder.
 
 ### Step 3: Install and Initialize Terraform
@@ -98,10 +96,6 @@ In GCP Console, I enabled the following APIs:
 
 * After bucket creation, I uploaded my `index.html` and `profile.jpg` from the `website/` folder using:
 
-  ```bash
-  gsutil cp -r ./website/* gs://<your-bucket-name>
-  ```
-
 ### Step 7: Domain Setup via Namecheap
 
 * Bought and verified my domain: `balogunsresume.com`
@@ -111,10 +105,7 @@ In GCP Console, I enabled the following APIs:
 
 ### Step 8: Create Load Balancer
 
-* Created an HTTP(S) Load Balancer in GCP with:
-
-  * Backend: the Cloud Storage bucket
-  * Frontend: Global IP and Google-managed SSL certificate
+* Created an HTTP(S) Load Balancer in GCP 
 
 ### Step 9: Connect Load Balancer to Domain
 
@@ -144,17 +135,6 @@ In my GitHub repository:
 
 ---
 
-## 5. Security Note
-
-* Bucket access is public only for reading via website
-* `allUsers` permission restricted only to necessary objects
-* Consider disabling public access if the site is decommissioned
-* Monitor IAM roles and Cloud Audit Logs regularly
-
----
-
 ## ✅ Assignment Completed
-
-I have successfully deployed my personal static website to GCP using Terraform, served it using a Load Balancer, and configured a working custom domain.
 
 Live Website: [http://website.balogunsresume.com/index.html](http://website.balogunsresume.com/index.html)
