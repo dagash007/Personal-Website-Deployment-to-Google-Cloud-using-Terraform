@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fleet-gift-459521-d6",
+  "private_key_id": "07428ef97f17d7233774d0037ca699b5f6743588",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCuTsqt9hmn9y8y\n+ZE5hJ1dIYHAfRDv7vUwT3yERQgrpLG19WwEVzhEvSeL2dCSZXcNQrJ479+ZBDdS\nUEi6qRVQaDrkoSXwHUlaiT6DZlkVn5qT7yhSZkS/VkOZz69O5mUKg0nopo45UGki\nwjwyegwswtJySgtgoIbNLJjiqMJn/QRJBvRncQ11cnPCG+z9PsUMUc/xlDiMo2Gl\nxRxEheQthDZdPMDBVxSdFPm3+yqMnXmSa3M01iqcHIneDCB1QvPTKWVi5uk0O/03\nkdCGMcxcDgy22eWdCfLeRLe3gwlav3Gjjzr3ZeTPhdT7MplMlwUcSmCUtRdQW/lL\nHR8Gfa1nAgMBAAECggEARemYZXnmBHaiWcG7u+Qy8d20my4Okw23Di9zc+H0Svz9\nwkuzjXImQXvU1sUAYReNTqZHyzX66vbD8aH96dBTmjKUHIt+GfbFKykNB8sPRBsF\n9vvfol0eidfhuVmRqQXD1RmflU7okJht8uERH/XP2Ewz+F82fQUlzDltAMxLXUV2\novMNyeOwiNHAC7FotkbUkq0yM50SsN9uAbtq3f9unw2XpCnTh3EJPv5UKJZTbc70\nIdHyXkdbIQbm9gLIWfAZp5xZRPAlTNVEiCtuvCt+K9Hu2w//BFTsUxiIO2WTuyNP\nXDHo3JIQisyLfZnn7V/Y4wH0+caLidd1QQTPra6X0QKBgQDgkpLbVODfWrsAC/1s\nNhyVJGwlZQnFTJqxXby4FMyDTHiSF/f/wgPMP4CrctP6P86OCUtD/mjfAOCvwVb7\n+dp9u3jdeOycV4BJIPPIa4A0Gsf/dLaasKO7YpUGOcOE9EH1QqwG+3fnGNXlxQT8\nPlXqo2x9P1Td+M2/21mrn57towKBgQDGs3T3npiSLXigejXBgajolQA0y9n+3ouN\nlGRwU7J6KChib+lEvArqP1CHx6a7FG9hfLep0yFqJOx/oLF/IDoWiToif6wX80iE\nN38hcvdNqSYo3lfw6YRhwBW51BieR5t6Kayif3S1u9uZ9G0Y2H9BXImWUeTbUVUV\nppfzE111bQKBgDFGeArAOQdJNTbxao3P4b2n3ELoRJiSEm9QjhQmHCnDIcGMmNH5\nlDPAy07TR0flsEDiMS2eKQyleKeX2Ko5TIPCGucdnW1Aldl17YfQbrUAG1omFdsj\nXwnCu8g97HTD06UpF+4AR3LhtC1SaaGfW+K8MRXaS5jY+uxaCPbrc0fZAoGAOOV+\nIsGJEqJunhUge25zPVYdHwEYRQDYmQvazsdIne4N0lIVS5dE0NqcZqTmuz8YvaOG\nu9w2/zvfdJRA/xPtTjKxMNu6HYmORD3X624OHnDG+oDgUZ2sSIlGL1XqTrhWbt6s\nDkPM2ZUXRrhU3P5xQfgLdb2xeJOLd42iiPoMkukCgYBmKR3eprpL3Ig8+2s0X9+9\np9pRV8kb1bVe8XlyoW0SVIgTDBmSzGmDxwW2tugAVtpUqOFOwIvhq/Us+4EmHN3m\nuPLCVUFOVvhSNwC2aLGCvu4Qr1kEnyqA/Op7tA6kkxa2yOTEn9cCIfV2nflb/jLR\nkV8ZWGvPUmgjD+0ZKvVo0A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "balogun-terraform@fleet-gift-459521-d6.iam.gserviceaccount.com",
+  "client_id": "100685453535497263701",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/balogun-terraform%40fleet-gift-459521-d6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
